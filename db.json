@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "title": "kanika",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "live",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "react",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "js",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "js",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "tea",
+      "status": false,
+      "id": 6
+    }
+  ]
+}
