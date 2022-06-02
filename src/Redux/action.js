@@ -1,7 +1,7 @@
 export const ADD_COUNT = " ADD_COUNT";
 export const DEC_COUNT = " DEC_COUNT";
 export const ADD_TODO = "ADD_TODO";
-export const DELETE_TODO = "DELETE_TODO";
+
 
 export const addCount = (data) => {
   return {
@@ -23,10 +23,5 @@ export const decCount = (data) => {
     };
   };
 
-  export const deleteTodo = (data) => {
-    return {
-       type: DELETE_TODO,
-       payload: data,
-    };
- };
+  
    
