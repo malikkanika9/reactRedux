@@ -1,6 +1,6 @@
 export const ADD_COUNT = " ADD_COUNT";
 export const DEC_COUNT = " DEC_COUNT";
-export const ADD_TODO = "ADD_TODO"
+
 export const addCount = (data) => {
   return {
     type: ADD_COUNT,
@@ -13,16 +13,4 @@ export const decCount = (data) => {
       payload: data,
     };
   };
-  
-
-export const addTodo = (data) => {
-  return {
-    type: ADD_TODO,
-    payload: data,
-  };
-};
-// export const getTodos = ()=>async(dispatch)=>{
-//   let res = await fetch("http://localhost:8080/todos")
-//     let data = await res.json();
-//     dispatch(addTodo(data))
-// }
+ 
